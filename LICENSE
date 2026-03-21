@@ -1,0 +1,64 @@
+Scripted Realms — Restricted Source License
+===========================================
+
+Copyright (c) 2026 Scripted Realms contributors. All rights reserved.
+
+This license applies to the software and accompanying materials in this
+repository (the "Software"), except where another license applies (for example,
+third-party dependencies under their respective licenses).
+
+1. Reservation of rights
+   No rights are granted except as expressly stated below. Any use of the
+   Software beyond what is permitted here requires prior written permission
+   from the copyright holder(s).
+
+2. Permitted use (without a separate written agreement)
+   You may:
+   (a) View and browse this repository and its contents on the hosting platform.
+   (b) Create a private fork or local copy solely for personal, non-commercial
+       study, evaluation, or research, without distributing the Software or
+       derivative works to others.
+   (c) Make reasonable transient copies needed to exercise the rights above.
+
+3. Restrictions
+   Without prior written permission from the copyright holder(s), you may not:
+   (a) Use the Software or any part of it for any commercial purpose, including
+       but not limited to selling, licensing, hosting as a paid or ad-supported
+       service, or using it in a product or service offered for money or other
+       consideration.
+   (b) Copy, modify, merge, publish, distribute, sublicense, sell, or otherwise
+       transfer the Software or derivative works, except as allowed in section 2.
+   (c) Remove or alter any copyright, trademark, or other proprietary notices.
+
+4. Contributions
+   Code or other materials you might wish to contribute are not licensed to the
+   project unless you and the copyright holder(s) agree in writing (for example
+   a contributor license agreement). Opening a pull request or issue does not
+   by itself transfer rights.
+
+5. Third-party components
+   The Software may include or depend on third-party code. That code remains
+   under its original license(s). This license does not apply where it would
+   conflict with those licenses.
+
+6. Trademarks
+   "Scripted Realms" and related names and logos are not licensed here. No rights
+   to use them are granted except as required for fair attribution of the
+   source.
+
+7. Disclaimer of warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. Commercial licensing
+   For commercial use, redistribution, or other rights not granted above,
+   contact the copyright holder(s).
+
+---
+This is a custom license. It is not OSI-approved "open source." If you need
+commercial rights, obtain written permission. Consider having a qualified
+attorney review this text for your jurisdiction and business plans.

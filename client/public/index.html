@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripted Realms</title>
+    <link rel="stylesheet" href="styles/style.css"> <!-- Подключаем файл со стилями -->
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать в Scripted Realms</h1>
+        <p>Отправляйтесь в эпическое приключение в мир, созданный с помощью языковых моделей и искусственного интеллекта.</p>
+        <button id="enter-world" class="btn">Войти в Мир</button>
+
+        <script>
+        const enterButton = document.getElementById('enter-world');
+        enterButton.addEventListener('click', function() {
+            window.location.href = 'entertoquest.html'; // Перенаправляем на страницу ввода квеста
+        });
+        </script>
+        
+    </div>
+</body>
+</html>

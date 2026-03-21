@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Описание мира и квеста</title>
+  <link rel="stylesheet" href="styles/entertoquest_style.css">
+</head>
+<body>
+  <h1>Описание мира и квеста</h1>
+  <form id="adventure-form">
+    <div class="form-group">
+      <label for="setting">Описание мира (сеттинг)</label>
+      <textarea id="setting" name="setting" rows="4" placeholder="Например, фэнтезийный мир с древними замками и темными лесами"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="quest">Описание основного квеста</label>
+      <textarea id="quest" name="quest" rows="4" placeholder="Например, спасти королевство от вторжения демонов"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="char-name">Имя персонажа</label>
+      <textarea id="char-name" name="char-name" rows="1" placeholder="Например, Гендальф"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="char-race">Раса персонажа</label>
+      <textarea id="char-race" name="char-race" rows="1" placeholder="Например, эльф"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="char-class">Класс персонажа</label>
+      <textarea id="char-class" name="char-class" rows="1" placeholder="Например, волшебник"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="char-background">Происхождение персонажа</label>
+      <textarea id="char-background" name="char-background" rows="4" placeholder="Например, из далекой деревни на границе королевства"></textarea>
+    </div>
+    <button type="submit" id="start-adventure" disabled>Отправиться в приключение</button>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+</html>

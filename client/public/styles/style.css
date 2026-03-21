@@ -1,0 +1,76 @@
+/* client/public/styles/style.css */
+
+/* Для мобильных устройств */
+@media (max-width: 767px) {
+  body {
+    background-image: url('mobile-background.jpg');
+  }
+}
+
+/* Для планшетов */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-image: url('tablet-background.jpg');
+  }
+}
+
+/* Для обычных мониторов */
+@media (min-width: 992px) and (max-width: 1365px) {
+  body {
+    background-image: url('../images/desktop-normal-background.jpg');
+  }
+}
+
+/* Для средне-игровых мониторов (например 1920x1080) */
+@media (min-width: 1366px) and (max-width: 1920px) {
+  body {
+    background-image: url('../images/desktop-gaming-background.jpg');
+  }
+}
+
+/* Для широких, больших мониторов до 4К */
+@media (min-width: 1921px) {
+  body {
+    background-image: url('../images/desktop-ultra-hd-background.jpg');
+  }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background.jpg'); /* Фоновое изображение */
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+}
+
+.container {
+    padding: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приключение</title>
+  <link rel="stylesheet" href="styles/quest_style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="upper-left">
+      <!-- Поле для нарратора -->
+      <textarea id="narrator-field" class="narrator-field" placeholder="Нарратор" readonly required></textarea>
+      <!-- Поле для пользователя -->
+      <textarea id="user-input" class="user-input" placeholder="Ваш ответ"></textarea>
+      <!-- Кнопка "Далее" -->
+      <button type="submit" id="send-message-btn" class="send-message-btn">Далее</button>
+    </div>
+    <div class="upper-right">
+      <div id="events-container">
+        <!-- Здесь будут отображаться события -->
+      </div>
+    </div>
+    <div class="lower-left">
+      <!-- Здесь будут броски кубиков -->
+    </div>
+    <div class="lower-right">
+      <!-- Здесь будет character sheet -->
+      <div class="character-sheet">
+        <h2>Character Sheet</h2>
+        <div class="form-group">
+            <label for="char-name">Имя персонажа:</label>
+            <input type="text" id="char-name" name="char-name" readonly required>
+        </div>
+        <div class="form-group">
+            <label for="char-race">Раса:</label>
+            <input type="text" id="char-race" name="char-race" readonly required>
+        </div>
+        <div class="form-group">
+            <label for="char-class">Класс:</label>
+            <input type="text" id="char-class" name="char-class" readonly required>
+        </div>
+        <div class="form-group">
+            <label for="char-background">Происхождение:</label>
+            <textarea id="char-background" name="char-background" rows="4" readonly required></textarea>
+        </div>
+    </div>
+    </div>
+  </div>
+  <script src="quest_script.js"></script>
+</body>
+</html>
