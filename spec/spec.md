@@ -1,4 +1,4 @@
-# Scripted Realms – Software Design Document (SDD)
+# Scripted Realms – Software Design Document
 
 > Проект: Scripted Realms  
 > Версия документа: 0.1 (prototype)  
